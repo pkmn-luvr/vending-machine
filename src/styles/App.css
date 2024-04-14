@@ -1,0 +1,28 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fde4f1; 
+    color: #5c3c58; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #eb6ea5; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f08cb4;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}

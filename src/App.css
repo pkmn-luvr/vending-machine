@@ -1,0 +1,41 @@
+/* General Body Styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fde4f1; 
+    color: #5c3c58; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #fff4f9; 
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #eb6ea5; 
+    margin: 5px 0;
+}
+
+.nav-link-active {
+    font-weight: bold;
+    color: #de6fa1;
+}
